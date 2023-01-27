@@ -5,23 +5,26 @@ body {
 }
 
 h1, h2 {
+    text-align: center;
     color: #003366;
     text-shadow: 2px 2px 4px #ccc;
+    width: 900px;
 }
 
 p {
     font-size: 18px;
     line-height: 1.5;
+    text-align: justify;
     color: #333;
     margin: 20px 0;
     text-align: center; /*center text*/
+    width: 900px;
 }
 
 img {
+    max-width: 100%;
+    height: auto;
     width: 300px; /* adjust this value to the desired size */
     height: 300px; /* adjust this value to the desired size */
-    border-radius: 10px;
-    box-shadow: 2px 2px 4px #ccc;
-    display:inline-block; /* center image*/
-    margin:0 auto; /* center image*/
+    float: left;
 }
